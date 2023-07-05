@@ -1,0 +1,12 @@
+python is a modular language. we can add features in python
+what is a module in python;
+it refers to a folder that has a script of files that can be reused.
+
+also refered to as python packages/libary/modules. each libary has a specific function.
+
+the core of python is 'PIL'
+
+python can work with other languages. e.g cpy(combination of c and python)
+
+PIP is a tool that we can use to locate download any python packages.
+python has some packages that we use for web application e.g django

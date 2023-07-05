@@ -1,0 +1,102 @@
+WHAT IS DEBUGGING?
+def1:refers to the process of finding and fixing errors in your source code.
+
+WHAT IS A BUG?
+a bug is written code which doesnt give us the desired output.
+a bug is a glitch in software that prevents a program from achieving the desired output.
+a mistake that prevents the programmer from having the desired output/ prevents the program from being executed properly.
+
+TYPES/CLASSIFICATION OF BUGS
+1.Syntax errors(coding bugs); errors that violate the syntax rules 
+e.g spelling errors, passing arguments where there are no arguments needed.
+these occur during the build time. normally include misuse of functtions, variables,parameters.
+these are normally underlined by the IDE(Intergrated Development Enviornment).
+
+2.logical errors; these occur when steps taken to solve a problem are not well done.
+ OR occur when the process of solving the task at hand is not well done.e.g an endless loop.
+ the program works perfectly but it doesnt produce the expected results.
+
+3.Design bug; an error introduced into the system during the design process,
+ causing the program to do what it was programmed to do but not the right thing to do.
+
+4.Runtime bugs/errors; these occur when the application tries to perform an operation that isn't allowed. 
+and theyre only discovered st the point of running the script or program.
+e.g when you divide any number by zero(0), any calculation with a string.
+
+TESTING;
+refers to trying to test the limit of your code. 
+
+DEBUGGING CYCLES;
+step1; coding.
+step2; check if its working.
+step3; this step is depandent on step2. if its not working we then DEBUG.
+step4; if its working then you're done and go back to step1.
+
+BUG SEEKING CYCLE;
+step1; writing the code/ coding.
+step2; trying to break the code(TESTING)
+step3; if you succeed in breaking it, then you need to DEBUG.
+step4; if you fail to break it, then you're okay and go back to step1(coding)
+
+PRINCIPLES/TIPS FOR DRBUGGING;
+1. catch your bug as early as possible.
+bugs caught early are pretty esay to fix because the deails are still in your mind and you know where to look.
+> catch your bugs early
+> only have one bug at a time.(test early and test often)
+> look where youve been working or what you last changed if you're trying to find a bug.
+> always work in small chunks. avoid large chunks of code.
+(if you're using github always make small commits).
+
+2. if a bug isnt caught early it gets harder to find because the details are not in your mind and youve a larger search space.
+
+STEPS OF DEBUGGING;
+1. plan your attack
+2. backup your files; use version control/github to keep track of changes.
+3. isolate the block of code that could have the error. ie. comment it out
+4. finding the line(s) that has the error
+5.fix the error dont patch it.
+6. test the fix.
+7. look for similar bugs.
+
+OTHER STRATEGIES;
+1. reproducibilty; the first step to being able to fix a bug is being able to reproduce it.
+understand the cause and effect before you change it.
+
+2. reduction; find the simplest test that exhibits the bug.
+reduce the serach space because bugs are not random, theyre caused by something and come from somewhere.
+
+3. deduction; understanding what the program is doing. 
+
+4. pair programming(working with someone.); 
+somone else maybe able to see the wrong assumptions or mistakes made in the code.
+
+5. leveraging experience from others.
+
+PREVENTIVE MEASURES;
+1. write clean and easy to read code; 
+not repeating yourself,indent the code.
+
+2.commenting;
+helps you figure exactly what your code is supposed to be doing.
+
+3. make one change at a time;
+
+4. test your code;
+> Unit test: test functional blocks of your code.
+>intergation test: testing the interaction btn the fucntional blocks of your code.
+> test with invalid data: what happens when your code runs with invalid data.
+
+5. defensive programming by adding error checking code and throwing exceptions.
+
+6. prioritizing which features can be ommitted.
+
+7. incubating; take a break, brain storming.
+
+DEBUGGING TOOLS.
+1. break points: 
+these help you to see which part of the code is carrying the bug.
+NOTE; the print statement is always your friend. 
+
+assignment: look for other debugging tools. 
+
+2. linting:
