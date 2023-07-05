@@ -1,15 +1,21 @@
 
 def person(name,dob,grade,location,guardian_names,sop):
-    print ('Dear: ',name)
-    print ('Your Date Of Birth is: ',dob)
-    print ('Your Grade is: ',grade)
-    print ('Your Location is :',location)
-    print ('Your Guardian Names is: ',guardian_names)
-    if sop == 'paid':
-        print('Yes')
-    else:
-        print('No')   
+    hi = 'Dear student: '
+    years = 'Year of Birth: '
+    caretaker = 'Your Guardians Name is: '
+    areacode = 'Your location is: '
     
+    print(hi+name)
+    print(years+dob)
+    print('Your grade is: ',grade)
+    print(areacode+location)
+    print(caretaker+guardian_names)
+    if sop == 'paid':
+        sop = "Yes"
+    else:
+        sop = "No"  
+    
+    print('Paid =',sop)
     
     
 amount = 5000
@@ -21,7 +27,8 @@ guardian_names = raw_input('Please insert the Guardians Names here: ')
 grade = input('Please input the Grades here: ')
 sop = raw_input('Please insert the State Of Payment: ')
 location = raw_input('please insert your Location here: ')
-
+student = [name,dob,guardian_names,grade,location,]
+print(student)
 
 person(name,dob,grade,location,guardian_names,sop)
 
