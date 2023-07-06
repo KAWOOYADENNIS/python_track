@@ -41,4 +41,7 @@ person(name,dob,grade,location,guardian_names,sop)
 # summary of registered students
 # amount of money the student should pay.
 # captured values should be appended in a list called student
-# push the assignment on a git repo named python group2 and add everyone to be a contributor.
+# push the assignment on a git repo named python group2 and add everyone to be a contributor
+# 
+# assignment; Define 2 functions that can out put even and odd numbers using while loop.
+#in a range of 100 in tens.(10,20,30s).
