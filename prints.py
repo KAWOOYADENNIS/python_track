@@ -4,14 +4,15 @@ def prints():
     print(message)
     print(message + name)
 
-    #student = []
-    #print(student)
+    # student = []
+    # print(student)
     name = raw_input('Please enter your name')
     age = input('Please enter your age')
-    #student.append(name)
-    #print(student)
-    #student.append(age)
-    student = [name,age]
+    # student.append(name)
+    # print(student)
+    # student.append(age)
+    student = [name, age]
     print(student)
-    
-prints()    
+
+
+prints()
