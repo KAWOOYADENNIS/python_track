@@ -4,7 +4,7 @@
 '''
 
 
-def tests(test1, test2):
+def tests(test1,test2):
 	#defining the variables in test which are test1 and test2
 	if test1 == test2:
 		#check if test1 is equal to test2
