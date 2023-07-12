@@ -9,6 +9,7 @@ The lines of code within a function written in structured programming are called
 what is defined as a 'function' in structured programming is called 'METHOD' in OOP
 When printing a method of a value, there should be a 'return' statement.
 all objects of a class will have the same exact METHOD.
+we have static and dynamic classes.
 '''
 
 
@@ -18,7 +19,7 @@ all objects of a class will have the same exact METHOD.
 
 
 
-class Girl:
+class Girl: #this is a static class
     name = 'Martha'
     age = 20
     gender = 'female'
@@ -33,7 +34,8 @@ class Girl:
         print('maganda')
         return ''
     def shower():
-        return 'showers twice'
+        print('showers twice')
+        return ''
 Girl.greet()
 Girl.dance()
 Girl.shower()
